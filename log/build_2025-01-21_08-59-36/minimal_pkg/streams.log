@@ -1,0 +1,37 @@
+[0.462s] Invoking command in '/home/hafizulazwan/ros2_learn_ws/src/minimal_pkg': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minimal_pkg build --build-base /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build install --record /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/install.log --single-version-externally-managed install_data
+[0.626s] running egg_info
+[0.626s] creating ../../build/minimal_pkg/minimal_pkg.egg-info
+[0.627s] writing ../../build/minimal_pkg/minimal_pkg.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../../build/minimal_pkg/minimal_pkg.egg-info/dependency_links.txt
+[0.627s] writing entry points to ../../build/minimal_pkg/minimal_pkg.egg-info/entry_points.txt
+[0.627s] writing requirements to ../../build/minimal_pkg/minimal_pkg.egg-info/requires.txt
+[0.627s] writing top-level names to ../../build/minimal_pkg/minimal_pkg.egg-info/top_level.txt
+[0.627s] writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+[0.629s] reading manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+[0.630s] writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+[0.630s] running build
+[0.630s] running build_py
+[0.630s] creating /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build
+[0.630s] creating /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib
+[0.630s] creating /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib/minimal_pkg
+[0.630s] copying minimal_pkg/__init__.py -> /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib/minimal_pkg
+[0.630s] copying minimal_pkg/minimal_node.py -> /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib/minimal_pkg
+[0.630s] running install
+[0.630s] running install_lib
+[0.631s] creating /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
+[0.631s] copying /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib/minimal_pkg/__init__.py -> /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
+[0.631s] copying /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build/lib/minimal_pkg/minimal_node.py -> /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
+[0.631s] byte-compiling /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py to __init__.cpython-310.pyc
+[0.632s] byte-compiling /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/minimal_node.py to minimal_node.cpython-310.pyc
+[0.632s] running install_data
+[0.632s] creating /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/share/ament_index
+[0.632s] creating /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/share/ament_index/resource_index
+[0.632s] creating /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+[0.632s] copying resource/minimal_pkg -> /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+[0.632s] copying package.xml -> /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/share/minimal_pkg
+[0.632s] running install_egg_info
+[0.634s] Copying ../../build/minimal_pkg/minimal_pkg.egg-info to /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info
+[0.634s] running install_scripts
+[0.653s] Installing minimal_node script to /home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/minimal_pkg
+[0.653s] writing list of installed files to '/home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/install.log'
+[0.674s] Invoked command in '/home/hafizulazwan/ros2_learn_ws/src/minimal_pkg' returned '0': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/minimal_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minimal_pkg build --build-base /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/build install --record /home/hafizulazwan/ros2_learn_ws/build/minimal_pkg/install.log --single-version-externally-managed install_data
