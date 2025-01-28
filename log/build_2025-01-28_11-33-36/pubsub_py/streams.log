@@ -1,0 +1,25 @@
+[0.811s] Invoking command in '/home/hafizulazwan/ros2_learn_ws/src/pubsub_py': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/build install --record /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/install.log --single-version-externally-managed install_data
+[1.024s] running egg_info
+[1.024s] writing ../../build/pubsub_py/pubsub_py.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ../../build/pubsub_py/pubsub_py.egg-info/dependency_links.txt
+[1.025s] writing entry points to ../../build/pubsub_py/pubsub_py.egg-info/entry_points.txt
+[1.025s] writing requirements to ../../build/pubsub_py/pubsub_py.egg-info/requires.txt
+[1.025s] writing top-level names to ../../build/pubsub_py/pubsub_py.egg-info/top_level.txt
+[1.027s] reading manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[1.028s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[1.028s] running build
+[1.029s] running build_py
+[1.029s] copying pubsub_py/sine_wave_subscriber.py -> /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/build/lib/pubsub_py
+[1.029s] running install
+[1.029s] running install_lib
+[1.030s] copying /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/build/lib/pubsub_py/sine_wave_subscriber.py -> /home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[1.031s] byte-compiling /home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sine_wave_subscriber.py to sine_wave_subscriber.cpython-310.pyc
+[1.032s] running install_data
+[1.032s] running install_egg_info
+[1.033s] removing '/home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.034s] Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info
+[1.035s] running install_scripts
+[1.055s] Installing sine_wave_publisher script to /home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/pubsub_py
+[1.055s] Installing sine_wave_subscriber script to /home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/pubsub_py
+[1.055s] writing list of installed files to '/home/hafizulazwan/ros2_learn_ws/build/pubsub_py/install.log'
+[1.090s] Invoked command in '/home/hafizulazwan/ros2_learn_ws/src/pubsub_py' returned '0': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/build install --record /home/hafizulazwan/ros2_learn_ws/build/pubsub_py/install.log --single-version-externally-managed install_data

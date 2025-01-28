@@ -12,7 +12,7 @@ class SineWavePublisher(Node):
         # Call the constructor of the parent class
         super().__init__('sine_wave_publisher')
         
-        # Call publish function
+        # Create publisher
         self.publisher = self.create_publisher(Float64, 'sine_wave_signal', 10)
         
         # Call timer function / callback

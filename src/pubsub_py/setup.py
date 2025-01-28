@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sine_wave_publisher = pubsub_py.sine_wave_publisher:main'
+            'sine_wave_publisher = pubsub_py.sine_wave_publisher:main',
+            'sine_wave_subscriber = pubsub_py.sine_wave_subscriber:main'
         ],
     },
 )
