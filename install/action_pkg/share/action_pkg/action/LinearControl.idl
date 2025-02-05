@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_pkg/action/LinearControl.action
+// generated code does not contain a copyright notice
+
+
+module action_pkg {
+  module action {
+    struct LinearControl_Goal {
+      float initial_position;
+
+      float goal_position;
+
+      float linear_velocity;
+    };
+    struct LinearControl_Result {
+      boolean motion_done;
+    };
+    struct LinearControl_Feedback {
+      float distance;
+    };
+  };
+};

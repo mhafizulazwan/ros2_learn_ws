@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "srv_pkg__py",
+		"source" : "/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py"
+	}
+}

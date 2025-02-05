@@ -1,0 +1,4 @@
+[console_scripts]
+joint_conversion_client = srvcli_py.client:main
+joint_conversion_server = srvcli_py.server:main
+

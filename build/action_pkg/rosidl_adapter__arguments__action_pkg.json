@@ -1,0 +1,6 @@
+{
+  "package_name": "action_pkg",
+  "non_idl_tuples": [
+    "/home/hafizulazwan/ros2_learn_ws/src/action_pkg:action/LinearControl.action"
+  ]
+}

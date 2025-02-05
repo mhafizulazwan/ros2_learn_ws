@@ -16,7 +16,7 @@ class SineWaveSubscriber(Node):
         super().__init__('sine_wave_subscriber')
         
         # Create subscriber
-        self.subscriber = self.create_subscription(Float64, 'sine_wave_signal', self.sine_subscriber, 10)
+        self.subscriber = self.create_subscription(Float64, 'sine_wave_signal', self.sine_subscriber, 20)
 
         # Parameters to receive and plot data 
         self.first_data_arrived = False

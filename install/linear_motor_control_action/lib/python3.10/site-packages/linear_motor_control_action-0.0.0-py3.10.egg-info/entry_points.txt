@@ -1,0 +1,3 @@
+[console_scripts]
+linear_control_server = linear_motor_control_action.server:mainlinear_control_client = linear_motor_control_action.client:main
+

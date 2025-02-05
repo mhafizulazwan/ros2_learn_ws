@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from srv_pkg/srv/JointConversion.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64.idl"
+
+module srv_pkg {
+  module srv {
+    typedef std_msgs::msg::Float64 std_msgs__msg__Float64;
+    typedef std_msgs__msg__Float64 std_msgs__msg__Float64__7[7];
+    struct JointConversion_Request {
+      std_msgs__msg__Float64__7 joint_input;
+    };
+    typedef std_msgs::msg::Float64 std_msgs__msg__Float64;
+    typedef std_msgs__msg__Float64 std_msgs__msg__Float64__7[7];
+    struct JointConversion_Response {
+      std_msgs__msg__Float64__7 joint_output;
+    };
+  };
+};

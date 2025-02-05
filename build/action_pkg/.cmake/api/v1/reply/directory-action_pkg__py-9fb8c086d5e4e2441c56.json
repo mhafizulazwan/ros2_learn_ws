@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "action_pkg__py",
+		"source" : "/home/hafizulazwan/ros2_learn_ws/build/action_pkg/action_pkg__py"
+	}
+}
