@@ -1,0 +1,22 @@
+[0.824s] Invoking command in '/home/hafizulazwan/ros2_learn_ws/src/srvcli_py': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli_py build --build-base /home/hafizulazwan/ros2_learn_ws/build/srvcli_py/build install --record /home/hafizulazwan/ros2_learn_ws/build/srvcli_py/install.log --single-version-externally-managed install_data
+[1.050s] running egg_info
+[1.051s] writing ../../build/srvcli_py/srvcli_py.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../build/srvcli_py/srvcli_py.egg-info/dependency_links.txt
+[1.051s] writing entry points to ../../build/srvcli_py/srvcli_py.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../build/srvcli_py/srvcli_py.egg-info/requires.txt
+[1.052s] writing top-level names to ../../build/srvcli_py/srvcli_py.egg-info/top_level.txt
+[1.054s] reading manifest file '../../build/srvcli_py/srvcli_py.egg-info/SOURCES.txt'
+[1.055s] writing manifest file '../../build/srvcli_py/srvcli_py.egg-info/SOURCES.txt'
+[1.055s] running build
+[1.055s] running build_py
+[1.056s] running install
+[1.056s] running install_lib
+[1.058s] running install_data
+[1.058s] running install_egg_info
+[1.061s] removing '/home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/python3.10/site-packages/srvcli_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.061s] Copying ../../build/srvcli_py/srvcli_py.egg-info to /home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/python3.10/site-packages/srvcli_py-0.0.0-py3.10.egg-info
+[1.062s] running install_scripts
+[1.083s] Installing joint_conversion_client script to /home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/srvcli_py
+[1.083s] Installing joint_conversion_server script to /home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/srvcli_py
+[1.084s] writing list of installed files to '/home/hafizulazwan/ros2_learn_ws/build/srvcli_py/install.log'
+[1.110s] Invoked command in '/home/hafizulazwan/ros2_learn_ws/src/srvcli_py' returned '0': PYTHONPATH=/home/hafizulazwan/ros2_learn_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafizulazwan/ros2_learn_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli_py build --build-base /home/hafizulazwan/ros2_learn_ws/build/srvcli_py/build install --record /home/hafizulazwan/ros2_learn_ws/build/srvcli_py/install.log --single-version-externally-managed install_data

@@ -16,7 +16,7 @@ class LinearMotorControlActionServer(Node):
         )
     
     def execute_callback(self, goal_handle):
-        curr_pos = goal_handle.request.initital_position
+        curr_pos = goal_handle.request.initial_position
         goal_pos = goal_handle.request.goal_position
         vel = goal_handle.request.linear_velocity
 

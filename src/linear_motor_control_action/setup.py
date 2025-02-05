@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'linear_control_server = linear_motor_control_action.server:main'
+            'linear_control_server = linear_motor_control_action.server:main',
             'linear_control_client = linear_motor_control_action.client:main'
 
         ],

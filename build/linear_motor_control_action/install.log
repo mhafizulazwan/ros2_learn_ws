@@ -13,4 +13,5 @@
 /home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/python3.10/site-packages/linear_motor_control_action-0.0.0-py3.10.egg-info/requires.txt
 /home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/python3.10/site-packages/linear_motor_control_action-0.0.0-py3.10.egg-info/PKG-INFO
 /home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/python3.10/site-packages/linear_motor_control_action-0.0.0-py3.10.egg-info/entry_points.txt
-/home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/linear_motor_control_action/linear_control_server = linear_motor_control_action.server:mainlinear_control_client
+/home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/linear_motor_control_action/linear_control_client
+/home/hafizulazwan/ros2_learn_ws/install/linear_motor_control_action/lib/linear_motor_control_action/linear_control_server
