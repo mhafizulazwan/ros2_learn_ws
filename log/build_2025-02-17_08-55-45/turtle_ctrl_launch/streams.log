@@ -1,0 +1,21 @@
+[0.990s] Invoking command in '/home/user/ros2_ws/src/turtle_ctrl_launch': PYTHONPATH=/home/user/ros2_ws/build/turtle_ctrl_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/turtle_ctrl_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_ctrl_launch build --build-base /home/user/ros2_ws/build/turtle_ctrl_launch/build install --record /home/user/ros2_ws/build/turtle_ctrl_launch/install.log --single-version-externally-managed install_data
+[1.133s] running egg_info
+[1.134s] writing ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/dependency_links.txt
+[1.134s] writing entry points to ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/entry_points.txt
+[1.135s] writing requirements to ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/requires.txt
+[1.135s] writing top-level names to ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/top_level.txt
+[1.136s] reading manifest file '../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/SOURCES.txt'
+[1.136s] writing manifest file '../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info/SOURCES.txt'
+[1.136s] running build
+[1.136s] running build_py
+[1.136s] running install
+[1.136s] running install_lib
+[1.137s] running install_data
+[1.137s] copying launch/turtle_ctrl.launch.py -> /home/user/ros2_ws/install/turtle_ctrl_launch/share/turtle_ctrl_launch
+[1.137s] running install_egg_info
+[1.138s] removing '/home/user/ros2_ws/install/turtle_ctrl_launch/lib/python3.10/site-packages/turtle_ctrl_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.138s] Copying ../../build/turtle_ctrl_launch/turtle_ctrl_launch.egg-info to /home/user/ros2_ws/install/turtle_ctrl_launch/lib/python3.10/site-packages/turtle_ctrl_launch-0.0.0-py3.10.egg-info
+[1.139s] running install_scripts
+[1.152s] writing list of installed files to '/home/user/ros2_ws/build/turtle_ctrl_launch/install.log'
+[1.180s] Invoked command in '/home/user/ros2_ws/src/turtle_ctrl_launch' returned '0': PYTHONPATH=/home/user/ros2_ws/build/turtle_ctrl_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/turtle_ctrl_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_ctrl_launch build --build-base /home/user/ros2_ws/build/turtle_ctrl_launch/build install --record /home/user/ros2_ws/build/turtle_ctrl_launch/install.log --single-version-externally-managed install_data
