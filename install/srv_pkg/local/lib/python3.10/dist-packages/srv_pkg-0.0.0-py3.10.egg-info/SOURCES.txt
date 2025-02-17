@@ -4,3 +4,5 @@ srv_pkg.egg-info/PKG-INFO
 srv_pkg.egg-info/SOURCES.txt
 srv_pkg.egg-info/dependency_links.txt
 srv_pkg.egg-info/top_level.txt
+srv_pkg/srv/__init__.py
+srv_pkg/srv/_joint_conversion.py

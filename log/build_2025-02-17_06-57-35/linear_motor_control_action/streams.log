@@ -1,0 +1,22 @@
+[0.631s] Invoking command in '/home/user/ros2_ws/src/linear_motor_control_action': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/action_pkg:/home/user/ros2_ws/install/srv_pkg LD_LIBRARY_PATH=/home/user/ros2_ws/install/action_pkg/lib:/home/user/ros2_ws/install/srv_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/build/linear_motor_control_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/linear_motor_control_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/linear_motor_control_action build --build-base /home/user/ros2_ws/build/linear_motor_control_action/build install --record /home/user/ros2_ws/build/linear_motor_control_action/install.log --single-version-externally-managed install_data
+[0.764s] running egg_info
+[0.765s] writing ../../build/linear_motor_control_action/linear_motor_control_action.egg-info/PKG-INFO
+[0.765s] writing dependency_links to ../../build/linear_motor_control_action/linear_motor_control_action.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../../build/linear_motor_control_action/linear_motor_control_action.egg-info/entry_points.txt
+[0.765s] writing requirements to ../../build/linear_motor_control_action/linear_motor_control_action.egg-info/requires.txt
+[0.765s] writing top-level names to ../../build/linear_motor_control_action/linear_motor_control_action.egg-info/top_level.txt
+[0.766s] reading manifest file '../../build/linear_motor_control_action/linear_motor_control_action.egg-info/SOURCES.txt'
+[0.766s] writing manifest file '../../build/linear_motor_control_action/linear_motor_control_action.egg-info/SOURCES.txt'
+[0.767s] running build
+[0.767s] running build_py
+[0.767s] running install
+[0.767s] running install_lib
+[0.767s] running install_data
+[0.767s] running install_egg_info
+[0.768s] removing '/home/user/ros2_ws/install/linear_motor_control_action/lib/python3.10/site-packages/linear_motor_control_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.769s] Copying ../../build/linear_motor_control_action/linear_motor_control_action.egg-info to /home/user/ros2_ws/install/linear_motor_control_action/lib/python3.10/site-packages/linear_motor_control_action-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.781s] Installing linear_control_client script to /home/user/ros2_ws/install/linear_motor_control_action/lib/linear_motor_control_action
+[0.781s] Installing linear_control_server script to /home/user/ros2_ws/install/linear_motor_control_action/lib/linear_motor_control_action
+[0.781s] writing list of installed files to '/home/user/ros2_ws/build/linear_motor_control_action/install.log'
+[0.796s] Invoked command in '/home/user/ros2_ws/src/linear_motor_control_action' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/action_pkg:/home/user/ros2_ws/install/srv_pkg LD_LIBRARY_PATH=/home/user/ros2_ws/install/action_pkg/lib:/home/user/ros2_ws/install/srv_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/build/linear_motor_control_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/linear_motor_control_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/linear_motor_control_action build --build-base /home/user/ros2_ws/build/linear_motor_control_action/build install --record /home/user/ros2_ws/build/linear_motor_control_action/install.log --single-version-externally-managed install_data

@@ -1,0 +1,160 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/action_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/srvcli_py:/home/user/ros2_ws/install/pubsub_py:/home/user/ros2_ws/install/minimal_pkg:/home/user/ros2_ws/install/linear_motor_control_action:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/action_pkg -- -j20 -l20
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_generator_c[0m
+[0.339s] [  3%] Built target action_pkg__cpp
+[0.339s] [ 12%] Built target action_pkg__rosidl_generator_c
+[0.339s] [ 12%] Built target ament_cmake_python_copy_action_pkg
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_cpp[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_c[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_introspection_c[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_fastrtps_c[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_introspection_cpp[0m
+[0.340s] [ 22%] Built target action_pkg__rosidl_typesupport_cpp
+[0.340s] [ 32%] Built target action_pkg__rosidl_typesupport_introspection_c
+[0.340s] [ 41%] Built target action_pkg__rosidl_typesupport_c
+[0.340s] [ 51%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp
+[0.340s] [ 61%] Built target action_pkg__rosidl_typesupport_fastrtps_c
+[0.340s] [ 70%] Built target action_pkg__rosidl_typesupport_introspection_cpp
+[0.340s] [ 70%] Built target action_pkg
+[0.340s] [ 74%] Built target action_pkg__py
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_generator_py[0m
+[0.340s] [ 80%] Built target action_pkg__rosidl_generator_py
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target action_pkg__rosidl_typesupport_c__pyext[0m
+[0.341s] [ 87%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext
+[0.341s] [ 93%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.341s] [100%] Built target action_pkg__rosidl_typesupport_c__pyext
+[0.341s] running egg_info
+[0.341s] writing action_pkg.egg-info/PKG-INFO
+[0.341s] writing dependency_links to action_pkg.egg-info/dependency_links.txt
+[0.341s] writing top-level names to action_pkg.egg-info/top_level.txt
+[0.341s] reading manifest file 'action_pkg.egg-info/SOURCES.txt'
+[0.341s] writing manifest file 'action_pkg.egg-info/SOURCES.txt'
+[0.341s] [100%] Built target ament_cmake_python_build_action_pkg_egg
+[0.495s] Invoked command in '/home/user/ros2_ws/build/action_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/srvcli_py:/home/user/ros2_ws/install/pubsub_py:/home/user/ros2_ws/install/minimal_pkg:/home/user/ros2_ws/install/linear_motor_control_action:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/action_pkg -- -j20 -l20
+[0.496s] Invoking command in '/home/user/ros2_ws/build/action_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/srvcli_py:/home/user/ros2_ws/install/pubsub_py:/home/user/ros2_ws/install/minimal_pkg:/home/user/ros2_ws/install/linear_motor_control_action:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/action_pkg
+[0.505s] -- Install configuration: ""
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/ament_index/resource_index/rosidl_interfaces/action_pkg
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/linear_control.h
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__functions.h
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__type_support.h
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__functions.c
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__struct.h
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/library_path.sh
+[0.506s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/library_path.dsv
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_generator_c.so
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.508s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__rosidl_typesupport_fastrtps_c.h
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_fastrtps_c.so
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__type_support.c
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__rosidl_typesupport_introspection_c.h
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_introspection_c.so
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_c.so
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.509s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__traits.hpp
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__struct.hpp
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__type_support.hpp
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__builder.hpp
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/linear_control.hpp
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.510s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/dds_fastrtps
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail
+[0.511s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__type_support.cpp
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/include/action_pkg/action_pkg/action/detail/linear_control__rosidl_typesupport_introspection_cpp.hpp
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_introspection_cpp.so
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_cpp.so
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/pythonpath.sh
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/pythonpath.dsv
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg-0.0.0-py3.10.egg-info
+[0.512s] -- Installing: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[0.512s] -- Installing: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[0.512s] -- Installing: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.512s] -- Installing: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg
+[0.512s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/_action_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/__init__.py
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/_action_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action/__init__.py
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action/_linear_control_s.c
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action/_linear_control.py
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/_action_pkg_s.ep.rosidl_typesupport_c.c
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/libaction_pkg__rosidl_generator_py.so
+[0.513s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.530s] Listing '/home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg'...
+[0.530s] Listing '/home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action'...
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/local/lib/python3.10/dist-packages/action_pkg/action_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_generator_py.so
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/action/LinearControl.idl
+[0.535s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/action/LinearControl.action
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/ament_index/resource_index/package_run_dependencies/action_pkg
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/ament_index/resource_index/parent_prefix_path/action_pkg
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/ament_prefix_path.sh
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/path.sh
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/environment/path.dsv
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/local_setup.bash
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/local_setup.sh
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/local_setup.zsh
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/local_setup.dsv
+[0.536s] -- Installing: /home/user/ros2_ws/install/action_pkg/share/action_pkg/package.dsv
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/ament_index/resource_index/packages/action_pkg
+[0.536s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_generator_cExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_generator_cppExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.537s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cppExport.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_generator_pyExport.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/export_action_pkg__rosidl_generator_pyExport-noconfig.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake-extras.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.538s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.539s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.539s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkgConfig.cmake
+[0.539s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkgConfig-version.cmake
+[0.539s] -- Up-to-date: /home/user/ros2_ws/install/action_pkg/share/action_pkg/package.xml
+[0.543s] Invoked command in '/home/user/ros2_ws/build/action_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/srvcli_py:/home/user/ros2_ws/install/pubsub_py:/home/user/ros2_ws/install/minimal_pkg:/home/user/ros2_ws/install/linear_motor_control_action:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/action_pkg
