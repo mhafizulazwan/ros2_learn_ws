@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/action_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/action_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/action_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/action_pkg
 
 # Utility rule file for ament_cmake_python_copy_action_pkg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_action_pkg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_action_pkg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_action_pkg:
-	/usr/bin/cmake -E copy_directory /home/hafizulazwan/ros2_learn_ws/build/action_pkg/rosidl_generator_py/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg/ament_cmake_python/action_pkg/action_pkg
+	/usr/bin/cmake -E copy_directory /home/user/ros2_ws/build/action_pkg/rosidl_generator_py/action_pkg /home/user/ros2_ws/build/action_pkg/ament_cmake_python/action_pkg/action_pkg
 
 ament_cmake_python_copy_action_pkg: CMakeFiles/ament_cmake_python_copy_action_pkg
 ament_cmake_python_copy_action_pkg: CMakeFiles/ament_cmake_python_copy_action_pkg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_action_pkg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_action_pkg.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_action_pkg.dir/depend:
-	cd /home/hafizulazwan/ros2_learn_ws/build/action_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/action_pkg /home/hafizulazwan/ros2_learn_ws/src/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg/CMakeFiles/ament_cmake_python_copy_action_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/action_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/action_pkg /home/user/ros2_ws/src/action_pkg /home/user/ros2_ws/build/action_pkg /home/user/ros2_ws/build/action_pkg /home/user/ros2_ws/build/action_pkg/CMakeFiles/ament_cmake_python_copy_action_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_action_pkg.dir/depend
 

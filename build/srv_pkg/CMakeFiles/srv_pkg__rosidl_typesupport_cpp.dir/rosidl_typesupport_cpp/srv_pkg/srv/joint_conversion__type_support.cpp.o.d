@@ -1,5 +1,5 @@
 CMakeFiles/srv_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srv_pkg/srv/joint_conversion__type_support.cpp.o: \
- /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_typesupport_cpp/srv_pkg/srv/joint_conversion__type_support.cpp \
+ /home/user/ros2_ws/build/srv_pkg/rosidl_typesupport_cpp/srv_pkg/srv/joint_conversion__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -15,7 +15,7 @@ CMakeFiles/srv_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srv_pkg/sr
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_cpp/srv_pkg/srv/detail/joint_conversion__struct.hpp \
+ /home/user/ros2_ws/build/srv_pkg/rosidl_generator_cpp/srv_pkg/srv/detail/joint_conversion__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \

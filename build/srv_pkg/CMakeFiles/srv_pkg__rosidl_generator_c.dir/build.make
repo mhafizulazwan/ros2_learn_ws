@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/srv_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/srv_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/srv_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/srv_pkg
 
 # Include any dependencies generated for this target.
 include CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend.make
@@ -115,8 +115,8 @@ rosidl_generator_c/srv_pkg/srv/joint_conversion.h: /opt/ros/humble/share/std_msg
 rosidl_generator_c/srv_pkg/srv/joint_conversion.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_c/srv_pkg/srv/joint_conversion.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/srv_pkg/srv/joint_conversion.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros2_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/user/ros2_ws/build/srv_pkg/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.h: rosidl_generator_c/srv_pkg/srv/joint_conversion.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.h
@@ -133,16 +133,16 @@ rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c: rosidl_gene
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o: CMakeFiles/srv_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o: rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o: CMakeFiles/srv_pkg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o -MF CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o.d -o CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o -c /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ros2_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o -MF CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o.d -o CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.o -c /home/user/ros2_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c
 
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c > CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ros2_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c > CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.i
 
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c -o CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ros2_ws/build/srv_pkg/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c -o CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__functions.c.s
 
 # Object files for target srv_pkg__rosidl_generator_c
 srv_pkg__rosidl_generator_c_OBJECTS = \
@@ -158,7 +158,7 @@ libsrv_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__ro
 libsrv_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libsrv_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libsrv_pkg__rosidl_generator_c.so: CMakeFiles/srv_pkg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libsrv_pkg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ros2_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libsrv_pkg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srv_pkg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -174,6 +174,6 @@ CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/srv_pkg/sr
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__struct.h
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/srv_pkg/srv/detail/joint_conversion__type_support.h
 CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/srv_pkg/srv/joint_conversion.h
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles/srv_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg/CMakeFiles/srv_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/srv_pkg__rosidl_generator_c.dir/depend
 

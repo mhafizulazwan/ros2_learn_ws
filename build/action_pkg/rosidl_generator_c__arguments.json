@@ -1,9 +1,9 @@
 {
   "package_name": "action_pkg",
-  "output_dir": "/home/hafizulazwan/ros2_learn_ws/build/action_pkg/rosidl_generator_c/action_pkg",
+  "output_dir": "/home/user/ros2_ws/build/action_pkg/rosidl_generator_c/action_pkg",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/hafizulazwan/ros2_learn_ws/build/action_pkg/rosidl_adapter/action_pkg:action/LinearControl.idl"
+    "/home/user/ros2_ws/build/action_pkg/rosidl_adapter/action_pkg:action/LinearControl.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -28,7 +28,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/hafizulazwan/ros2_learn_ws/build/action_pkg/rosidl_adapter/action_pkg/action/LinearControl.idl",
+    "/home/user/ros2_ws/build/action_pkg/rosidl_adapter/action_pkg/action/LinearControl.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/srv_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/srv_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/srv_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/srv_pkg
 
 # Utility rule file for srv_pkg.
 
@@ -66,7 +66,7 @@ include CMakeFiles/srv_pkg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/srv_pkg.dir/progress.make
 
-CMakeFiles/srv_pkg: /home/hafizulazwan/ros2_learn_ws/src/srv_pkg/srv/JointConversion.srv
+CMakeFiles/srv_pkg: /home/user/ros2_ws/src/srv_pkg/srv/JointConversion.srv
 CMakeFiles/srv_pkg: rosidl_cmake/srv/JointConversion_Request.msg
 CMakeFiles/srv_pkg: rosidl_cmake/srv/JointConversion_Response.msg
 CMakeFiles/srv_pkg: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -113,6 +113,6 @@ CMakeFiles/srv_pkg.dir/clean:
 .PHONY : CMakeFiles/srv_pkg.dir/clean
 
 CMakeFiles/srv_pkg.dir/depend:
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles/srv_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg/CMakeFiles/srv_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/srv_pkg.dir/depend
 

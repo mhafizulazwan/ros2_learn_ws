@@ -1,8 +1,8 @@
-# Install script for directory: /home/hafizulazwan/ros2_learn_ws/build/action_pkg/action_pkg__py
+# Install script for directory: /home/user/ros2_ws/build/action_pkg/action_pkg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hafizulazwan/ros2_learn_ws/install/action_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/user/ros2_ws/install/action_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

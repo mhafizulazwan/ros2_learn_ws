@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/action_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/action_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/action_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/action_pkg
 
 # Utility rule file for action_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/action_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/action_pkg_uninstall.dir/progress.make
 
 CMakeFiles/action_pkg_uninstall:
-	/usr/bin/cmake -P /home/hafizulazwan/ros2_learn_ws/build/action_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/user/ros2_ws/build/action_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 action_pkg_uninstall: CMakeFiles/action_pkg_uninstall
 action_pkg_uninstall: CMakeFiles/action_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/action_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/action_pkg_uninstall.dir/clean
 
 CMakeFiles/action_pkg_uninstall.dir/depend:
-	cd /home/hafizulazwan/ros2_learn_ws/build/action_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/action_pkg /home/hafizulazwan/ros2_learn_ws/src/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg /home/hafizulazwan/ros2_learn_ws/build/action_pkg/CMakeFiles/action_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/action_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/action_pkg /home/user/ros2_ws/src/action_pkg /home/user/ros2_ws/build/action_pkg /home/user/ros2_ws/build/action_pkg /home/user/ros2_ws/build/action_pkg/CMakeFiles/action_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/action_pkg_uninstall.dir/depend
 

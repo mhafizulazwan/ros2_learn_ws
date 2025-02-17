@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/srv_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/srv_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/srv_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/srv_pkg
 
 # Utility rule file for srv_pkg__cpp.
 
@@ -121,8 +121,8 @@ rosidl_generator_cpp/srv_pkg/srv/joint_conversion.hpp: /opt/ros/humble/share/std
 rosidl_generator_cpp/srv_pkg/srv/joint_conversion.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/srv_pkg/srv/joint_conversion.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/srv_pkg/srv/joint_conversion.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros2_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/user/ros2_ws/build/srv_pkg/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/srv_pkg/srv/detail/joint_conversion__builder.hpp: rosidl_generator_cpp/srv_pkg/srv/joint_conversion.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/srv_pkg/srv/detail/joint_conversion__builder.hpp
@@ -154,6 +154,6 @@ CMakeFiles/srv_pkg__cpp.dir/clean:
 .PHONY : CMakeFiles/srv_pkg__cpp.dir/clean
 
 CMakeFiles/srv_pkg__cpp.dir/depend:
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles/srv_pkg__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg/CMakeFiles/srv_pkg__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/srv_pkg__cpp.dir/depend
 

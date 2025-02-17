@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hafizulazwan/ros2_learn_ws/src/srv_pkg
+CMAKE_SOURCE_DIR = /home/user/ros2_ws/src/srv_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hafizulazwan/ros2_learn_ws/build/srv_pkg
+CMAKE_BINARY_DIR = /home/user/ros2_ws/build/srv_pkg
 
 # Utility rule file for srv_pkg__py.
 
@@ -119,8 +119,8 @@ rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/
 rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hafizulazwan/ros2_learn_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros2_ws/build/srv_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/user/ros2_ws/build/srv_pkg/srv_pkg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/user/ros2_ws/build/srv_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_introspection_c.c
@@ -152,10 +152,10 @@ srv_pkg__py/CMakeFiles/srv_pkg__py.dir/build: srv_pkg__py
 .PHONY : srv_pkg__py/CMakeFiles/srv_pkg__py.dir/build
 
 srv_pkg__py/CMakeFiles/srv_pkg__py.dir/clean:
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg__py.dir/cmake_clean.cmake
+	cd /home/user/ros2_ws/build/srv_pkg/srv_pkg__py && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg__py.dir/cmake_clean.cmake
 .PHONY : srv_pkg__py/CMakeFiles/srv_pkg__py.dir/clean
 
 srv_pkg__py/CMakeFiles/srv_pkg__py.dir/depend:
-	cd /home/hafizulazwan/ros2_learn_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hafizulazwan/ros2_learn_ws/src/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py /home/hafizulazwan/ros2_learn_ws/build/srv_pkg /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py /home/hafizulazwan/ros2_learn_ws/build/srv_pkg/srv_pkg__py/CMakeFiles/srv_pkg__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ros2_ws/build/srv_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/srv_pkg /home/user/ros2_ws/build/srv_pkg/srv_pkg__py /home/user/ros2_ws/build/srv_pkg /home/user/ros2_ws/build/srv_pkg/srv_pkg__py /home/user/ros2_ws/build/srv_pkg/srv_pkg__py/CMakeFiles/srv_pkg__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srv_pkg__py/CMakeFiles/srv_pkg__py.dir/depend
 
